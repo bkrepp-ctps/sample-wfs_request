@@ -1,0 +1,30 @@
+Original Request
+================
+
+https://www.ctps.org/maploc/postgis/wms?service=WMS&version=1.1.0&request=GetMap&
+layers=postgis:road_inventory_grouped&
+styles=&
+bbox=32693.7265625,776764.3125,332095.0,960653.3125&
+width=768&
+height=471&
+srs=EPSG:26986&
+format=text%2Fhtml%3B%20subtype%3Dopenlayers
+
+
+Transformed Request
+===================
+https://www.ctps.org/maploc/postgis/wms?service=WMS&version=1.1.0&request=GetMap&
+layers=postgis:road_inventory_grouped&
+styles=&
+bbox=-73.49525665830699,41.223345049481914,-69.88298420179719,42.88523447506923&
+width=768&
+height=471&
+srs=EPSG:4326&
+format=text%2Fhtml%3B%20subtype%3Dopenlayers
+
+BBOX coordinates
+================
+
+32693.7265625 776764.3125		-73.49525665830699 41.223345049481914
+
+332095.0 960653.3125			-69.88298420179719 42.88523447506923
